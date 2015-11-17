@@ -1,0 +1,60 @@
+<!DOCTYPE>
+<html>
+<head>
+    <title>project list</title>
+    <link rel="stylesheet" type="text/css" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../../dist/css/style.css">
+    <meta charset="UTF-8">
+</head>
+<body>
+<div class="root">
+    <div class="container">
+        <div class="row">
+            <h1 class="col-md-7 col-sm-8 col-md-offset-1">Project List</h1>
+            <p class="col-md-3 col-sm-3 text-right marginTop20">
+                Welcome, xx!
+                <a href="#">logout</a>
+            </p>
+        </div>
+        <div class="row marginTop20">
+            <div class="dropdown col-md-10 col-sm-11 col-md-offset-1">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    全部
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li><a href="#">booking</a></li>
+                    <li><a href="#">waimai</a></li>
+                    <li><a href="#">rs</a></li>
+                    <li><a href="#">merchant</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row marginTop20">
+            <div class="col-md-10 col-sm-11 col-md-offset-1">
+                <table class="table table-bordered table-hover">
+                    <thead>
+                        <th>#</th><th>名称</th><th>业务</th><th>文档数量</th><th>操作</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td><td>rs-m-web</td><td>booking</td><td>5</td><td><a href="javascript:;">删除</a></td>
+                        </tr>
+                        <tr>
+                            <td>2</td><td>hui-m-web</td><td>hui</td><td>12</td><td><a href="javascript:;">删除</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-sm-10 col-md-offset-1">
+                <button class="btn btn-default active" type="submit">新建</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+<script src="../../node_modules/bootstrap/js/dropdown.js"></script>
+</body>
+</html>
